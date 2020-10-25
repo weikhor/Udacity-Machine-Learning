@@ -17,7 +17,6 @@ from sklearn.metrics import accuracy_score
 ### features_train and features_test are the features for the training
 ### and testing datasets, respectively
 ### labels_train and labels_test are the corresponding item labels
-a
 features_train, features_test, labels_train, labels_test = preprocess()
 #########################################################
 ### your code goes here ###
@@ -28,4 +27,3 @@ predict_author_accuracy = accuracy_score(predict_author, labels_test)
 print(predict_author_accuracy)
 #print(features_train.shape)
 #########################################################
-
